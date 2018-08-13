@@ -1,0 +1,95 @@
+---
+title: "Model Selection Method"
+author: "Aiden V Johnson"
+date: "12/13/2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+##Problem Identification
+***
+###Define the question:Generate a working hypothesis.  
+
+
+
+
+####Identify the modeling project Goal.  
+e.g Predict device failures.
+
+
+
+
+####Identify the data needed and or available.  
+e.g Daily aggregated telemetry device failure data.
+
+
+
+
+####Define the data Timeframe:  
+e.g. 01/01/2015-11/02/2015
+
+
+####Describe the Modeling Response:  
+e.g. Binary, 0 or 1, non-failure = 0, failure = 1
+
+
+
+####Classification or Regression Model: 
+e.g. Classification 
+
+
+####What Deliverables will be generated:
+e.g.PDF outlining modeling process from data exploration to best model results.
+
+
+***
+##Begin Exploratory Data Analysis 
+
+###Build Directories
+ * Create a modeling path and output directories to stay organized
+I created an R package with functions for data pre-processing called Squeaky, as in squeaky clean data. This is still a work in progress butit streamlines my work flow greatly. This package is available on my Github account and can be installed with devtools. Included in this package is a function that creates a timestamped folder of directories for modeling procedures. This allows automated version control and allocates outputs to designated folders which can then be called upon for reporting with easy repeatability. 
+
+###Review Response variable distribution
+ * Does it need to be transformed?
+ * Is it normally distributed?
+ 
+
+
+###Review Data Summary and Data Attributes
+Adapt modeling plan as you learn more about the data. 
+
+### Review Distribution Boxplots or univariate and bi-variate distribution plots
+
+### Looking for collinearity of variables
+ * Also good to review correlation with response variable.
+
+###Consider applying Unsupervised for Feature Extraction
+
+###Check for Outliers 
+###Remove Variables with Near Zero Variance
+###Rescale and Center the Data for Modeling
+###Review the Data for Missing and NA values.
+###Find Variables That are 100% Unique values
+These need to be removed, usually a count or id variable.
+
+###Create a test and train group 
+ * Data with no na and near zero variance filtered data
+ * Rename failure to Response
+ 
+ 
+***
+
+##Fit models 
+###Logistic Regression
+###Area Under the Curve
+
+###Random Forest Model
+###parameter tuning with grid search or random search methods
+####Model Performance Confusion Matrix
+
+
+***
+##Model Review and Refining process
