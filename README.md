@@ -1,26 +1,10 @@
 # Model_Selection_Doc
 This Markdown outlines the important steps in model selection and pre-processing steps in data science and machine learning projects. An example project will be created as well to show the use of the squeaky R package in executing these steps.
 
-<div class="container-fluid main-container">
-
-<!-- tabsets -->
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-</script>
-
-<!-- code folding -->
-
-
 <div class="fluid-row" id="header">
-
-
-
 <h1 class="title toc-ignore">Model Selection Method</h1>
 <h4 class="author"><em>Aiden V Johnson</em></h4>
 <h4 class="date"><em>12/13/2017</em></h4>
-
 </div>
 
 
