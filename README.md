@@ -1,92 +1,5 @@
 # Model_Selection_Doc
-This Rmarkdown outlines the important steps in model selection and pre-processing steps in data science and machine learning projects. An example project will be created as well to show the use of the squeaky R package in executing these steps.
-
-
-<!DOCTYPE html>
-<head>
-
-<meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="generator" content="pandoc" />
-
-
-<meta name="author" content="Aiden V Johnson" />
-
-<meta name="date" content="2017-12-13" />
-
-<title>Model Selection Method</title>
-
-<style type="text/css">code{white-space: pre;}</style>
-<style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
-<script type="text/javascript">
-if (window.hljs && document.readyState && document.readyState === "complete") {
-   window.setTimeout(function() {
-      hljs.initHighlighting();
-   }, 0);
-}
-</script>
-
-
-
-<style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
-
-
-</head>
-
-<body>
-
-<style type="text/css">
-.main-container {
-  max-width: 940px;
-  margin-left: auto;
-  margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
-}
-img {
-  max-width:100%;
-  height: auto;
-}
-.tabbed-pane {
-  padding-top: 12px;
-}
-button.code-folding-btn:focus {
-  outline: none;
-}
-</style>
-
-
+This Markdown outlines the important steps in model selection and pre-processing steps in data science and machine learning projects. An example project will be created as well to show the use of the squeaky R package in executing these steps.
 
 <div class="container-fluid main-container">
 
@@ -98,10 +11,6 @@ $(document).ready(function () {
 </script>
 
 <!-- code folding -->
-
-
-
-
 
 
 <div class="fluid-row" id="header">
@@ -231,15 +140,3 @@ $(document).ready(function () {
 
 </div>
 
-<script>
-// add bootstrap table styles to pandoc tables
-function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
-}
-$(document).ready(function () {
-  bootstrapStylePandocTables();
-});
-</script>
-
-</body>
-</html>
